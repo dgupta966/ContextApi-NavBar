@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  background-color: #333;
+  color: white;
+  align-items: center;
+}
+.brand {
+  margin: 5px;
+}
+.navlink {
+  height: 100%;
+}
+.navlink ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.navlink ul li {
+  list-style: none;
+}
+.navlink li a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 1em;
+}
+.navlink li:hover {
+  background-color: #555;
+}
